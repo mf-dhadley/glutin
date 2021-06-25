@@ -591,6 +591,7 @@ pub struct PixelFormatRequirements {
 
     /// X11 only: set internally to insure a certain visual xid is used when
     /// choosing the fbconfig.
+    #[allow(dead_code)]
     pub(crate) x11_visual_xid: Option<std::os::raw::c_ulong>,
 }
 
