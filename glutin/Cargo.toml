@@ -26,7 +26,7 @@ lazy_static = "1.3"
 version = "0.25"
 default-features = false
 git = "https://github.com/iced-rs/winit"
-rev = "eba45b9567d3efdba5165381960b4f914fffeb96"
+rev = "fea65a7f852fb36956adc0b13b6647e25eec33ec"
 
 [target.'cfg(target_os = "android")'.dependencies]
 android_glue = "0.2"
